@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류 필터링 튜토리얼"
+            android:id="@+id/textView13"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016.02.16 작성"
+            android:id="@+id/textView14"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView10"
+            android:src="@mipmap/ki1"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류를 추가하기위해\n&quot;종류추가&quot;리스트를 클릭합니다."
+            android:id="@+id/textView15"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:src="@mipmap/ki2"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="그 다음 종류추가에서 종류의\n이름을 입력하고 확인을 클릭합니다."
+            android:id="@+id/textView16"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView12"
+            android:src="@mipmap/ki3"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류의 서브확장자를 추가하기위해\n확장자명을 입력합니다.\n모두 추가하였다면 &quot;끝내기&quot;를 클릭합니다."
+            android:id="@+id/textView17"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView13"
+            android:src="@mipmap/ki4"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류가 정상적으로 추가되었는지 확인하기위해\n&quot;종류목록&quot;리스트를 클릭합니다."
+            android:id="@+id/textView18"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView14"
+            android:src="@mipmap/ki5"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="리스트에 자신이 추가한 종류와 서브확장자가\n정상적으로 추가되어있는지 확인합니다."
+            android:id="@+id/textView19"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView15"
+            android:src="@mipmap/ki6"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류이름을 길게터치하면 종류옵션이 뜹니다."
+            android:id="@+id/textView20"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView16"
+            android:src="@mipmap/ki7"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="해당 폴더를 길게누른뒤 종류필터링을 클릭합니다."
+            android:id="@+id/textView21"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView17"
+            android:src="@mipmap/ki8"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="해당폴더에 들어가 종류이름으로\n생성된 폴더를 확인하고 들어갑니다."
+            android:id="@+id/textView22"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView18"
+            android:src="@mipmap/ki9"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서브확장자로 이루어진 파일들이\n폴더에 분류되어있는지 확인합니다."
+            android:id="@+id/textView23"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+</ScrollView>

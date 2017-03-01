@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확장자 필터링 튜토리얼"
+            android:id="@+id/textView2"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016.02.16 작성"
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ex1"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="먼저 메인화면 오른쪽위에 배치된 \n설정아이콘을 클릭해 설정화면으로 진입합니다"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/ex2"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="그 다음 확장자를 추가해주기 위해\n &quot;확장자추가&quot;리스트를 클릭합니다."
+            android:id="@+id/textView4"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@mipmap/ex3"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="그 다음뜨는 안내창에서 자신이 분류하려는\n확장자명을 입력후 확인을 클릭합니다."
+        android:id="@+id/textView5"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@mipmap/ex4"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확장자를 모두 추가하셨으면추가한 확장자를\n확인하기 위해 &quot;확장자목록&quot;리스트를 클릭합니다."
+        android:id="@+id/textView6"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@mipmap/ex5"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리스트에 자신이 추가한 확장자가\n등록되어있는지 확인합니다."
+        android:id="@+id/textView7"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/ex6"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="본격적으로 확장자 필터링을 진행하기위해\n메인화면에서 필터링을 진행하려는\n폴더의 리스트를 꾹 누릅니다."
+        android:id="@+id/textView8"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@mipmap/ex7"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이어 나오는 필터링옵션에서\n&quot;확장자필터링&quot;리스트를 클릭합니다."
+        android:id="@+id/textView9"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@mipmap/ex8"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="필터링이 끝나면 해당폴더에 들어가\n생성된 확장자 폴더를 클릭합니다."
+        android:id="@+id/textView10"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@mipmap/ex9"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가한 확장자를 가진 파일이\n분류되었는지 확인합니다."
+        android:id="@+id/textView11"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp" />
+
+
+</LinearLayout>
+    </ScrollView>
