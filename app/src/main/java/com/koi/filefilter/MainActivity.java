@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#0054FF")));
         li = (LayoutInflater)getSystemService(MainActivity.LAYOUT_INFLATER_SERVICE);
 
